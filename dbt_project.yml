@@ -38,8 +38,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   banvic_dataset:
     # Applies to all files under models/example/
-    example:
-      +materialized: table
+    stagin:
+      +materialized: view
 
 seeds:
   banvic_dataset:
