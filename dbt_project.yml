@@ -40,7 +40,11 @@ models:
     # Applies to all files under models/example/
     stagin:
       +materialized: view
-
+    intermidiate:
+      +materialized: view
+    marts:
+      +materialized: table
+    
 seeds:
   banvic_dataset:
     dados_raw:
