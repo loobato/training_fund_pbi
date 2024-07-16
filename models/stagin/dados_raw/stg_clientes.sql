@@ -11,6 +11,7 @@ with
             , cast(data_nascimento as date) as data_nascimento_cliente
             , cast(endereco as string) as endereco_cliente
             , cast(replace(cep, '-', '') as string) as cep_cliente
+            
         from {{ source('rawdata', 'clientes') }}
     )
 

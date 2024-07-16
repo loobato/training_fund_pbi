@@ -1,7 +1,7 @@
 with
     raw_transacoes as (
         select 
-            cod_transacao
+            cast(cod_transacao as int) as id_transacao
             , cast(num_conta as int) as id_conta 
             , cast(data_transacao as string) as data_transacao 
             , cast(nome_transacao as string) as nome_transacao
