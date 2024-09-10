@@ -14,7 +14,7 @@ with
             , contas.id_agencia
             , contas.data_abertura
             , clientes.data_nascimento_cliente
-            , clientes.nome_cliente
+            , clientes.nome_cliente 
             , clientes.sobrenome_cliente
             , clientes.email_cliente
             , clientes.tipo_cliente
