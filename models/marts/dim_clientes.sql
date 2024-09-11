@@ -1,7 +1,7 @@
 with 
     clientes as (
         select *
-        from {{ ref('stg_clientes') }}
+        from {{ ref('int_clientes') }}
     )
     , contas as (
         select *
