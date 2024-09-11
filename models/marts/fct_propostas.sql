@@ -33,37 +33,7 @@ with
             , propostas.quantidade_parcelas
             , propostas.carencia
             , propostas.status_proposta
-            , clientes.id_conta
-            , clientes.data_nascimento_cliente
-            , clientes.nome_cliente
-            , clientes.sobrenome_cliente
-            , clientes.email_cliente
-            , clientes.tipo_cliente
-            , clientes.cpfcnpj_cliente
-            , clientes.endereco_cliente
-            , clientes.cep_cliente
-            , clientes.tipo_conta
-            , colaboradores.nome_colab
-            , colaboradores.sobrenome_colab
-            , colaboradores.email_colab
-            , colaboradores.cpf_colab
-            , colaboradores.data_nascimento
-            , colaboradores.endereco_colab
-            , colaboradores.cep_colab
-            , agencias.nome_agencia
-            , agencias.endereco_agencia
-            , agencias.cidade_agencia
-            , agencias.uf_agencia
-            , agencias.tipo_agencia
-            , datas.data
-            , datas.ano
-            , datas.mes
-            , datas.dia
-            , datas.numero_semana
-            , datas.trimestre
-            , datas.dia_semana
-            , datas.fim_de_semana
-    
+            , clientes.id_conta    
         from propostas
 
         join clientes
